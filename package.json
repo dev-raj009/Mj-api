@@ -1,0 +1,20 @@
+{
+  "name": "nexttoppers-proxy-api",
+  "version": "2.0.0",
+  "description": "Proxy API for NextToppers / MissionJeet — token hardcoded, sirf ID chahiye",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
